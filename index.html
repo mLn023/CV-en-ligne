@@ -9,18 +9,18 @@
 </head>
 <body>
     <nav class="nav-bar">
-        <a>A propos de moi</a>
-        <a>Mon parcours</a>
-        <a>Mes projets</a>
-        <a>Gallerie</a>
-        <a>Me contacter</a>
+        <a class="button_menu">A propos de moi</a>
+        <a class="button_menu">Mon parcours</a>
+        <a class="button_menu">Mes projets</a>
+        <a class="button_menu">Gallerie</a>
+        <a class="button_menu">Me contacter</a>
     </nav>
+    <h1>A propos de moi</h1>
     <div class="about_me">
-        <h1>A propos de moi</h1>
         <div class="row_about_me">
             <div class="col-photo"><img src="img/FWNeL6iX0AM_QsI.jpg" height="600" alt="Mhilan devant une fontaine de plovdiv"></div>
             <div class="presentation">
-                <p>Je suis <span class="name">MHILAN HENRY</span>, 26 ans, developpeur débutant.</p>
+                <p>Je suis <span class="name">M</span>hilan <span>H</span>enry, 26 ans, developpeur débutant.</p>
 
                 <p>Je me suis mis au développement web lors de ma licence à l'université. J'ai commencé le developpement en réalisant une application
                 web permettant la prise de rendez-vous.</p>
@@ -36,54 +36,92 @@
         </div>
     </div>
     <h1>Mon parcours</h1>
-    <div class="choice">
-        <div></div>
-        <div>
-            <button id="button_scolar" class="choice">Scolaire</button> <a class="choice"> - </a> <button id="button_pro" class="choice">Professionel</a>
+    <div class="my_journey" id="my_journey">
+        <div class="timeline">
+            <div class="container left">
+                <div class="content">
+                    <h3><span>J</span>uillet 20<span>1</span>5 - Obtention du baccalauréat série scientifique <a href="https://goo.gl/maps/SGCbEhcfGc8tnTcg6">Lycée André Lurçat</a></h3>
+                    <p>- Science de la vie et de la terre</p>
+                    <p>- Spécialité mathématiques</p>
+                    <p>- Option L.V.3 Néerlandais <img class="svg" src="img/nl.svg" alt="Drapeau néerlandais"></p>
+                </div>
+            </div>
+
+            <div class="container right">
+                <div class="content">
+                    <h3><span>A</span>out 20<span>1</span>5 - Plongeur - Texaco Saint-Ghislain</h3>
+                    <p>Première expérience professionnelle en tant que plongeur dans le restaurant d'une station service d'autoroute.</p>
+                </div>
+            </div>
+
+            <div class="container left">
+                <div class="content">
+                    <h3>20<span>1</span>7/20<span>1</span>8 - Joueur semi-professionnel Counter-Strike</h3>
+                    <p>- Sept. 2017 <span>-</span> 3<span><sup>ème</sup></span> Valenciennes Game Arena <img src="img/bronze-medal-svgrepo-com.svg" alt="bronze medal" class="svg"> </p>
+                    <p>- Nov. 2017 <span>-</span> Vice-champion des ESL-Benelux <img src="img/silver-medal-svgrepo-com.svg" alt="silver medal" class="svg"></p>
+                    <p>- Fev. 2018 <span>-</span> 4<span><sup>ème</sup></span> Epsilan </p>
+                </div>
+            </div>
+
+
+            <div class="container right">
+                <div class="content">
+                    <h3><span>J</span>uillet 20<span>1</span>8 - Début de collaboration préparateur de commande (étudiant) H&M Logistics, Ghlin <img src="img/be.svg" alt="" class="svg"> </h3>
+                    <p>- Préparation de marchandise en suivant un bon de commande</p>
+                    <p>- Tri de commandes et inventaire de marchandise</p>
+                    <p>- Chargement et déchargement de marchandise</p>
+                    <p>- Initiation et formation au travail des nouveaux arrivant</p>
+                </div>
+            </div>
+
+            <div class="container left">
+                <div class="content">
+                    <h3><span>J</span>uin 20<span>2</span>0 - Obtiention d'une licence en informatique <a href="https://goo.gl/maps/ctcw6TAr2CwAQAVc8">UPHF</a></h3>
+                    <p>- Algorithmie, POO, Langage C, Java</p>
+                    <p>- BDD, Complexité, Optimisation, Réseaux etc..</p>
+                </div>
+            </div>
+
+            <div class="container right">
+                <div class="content">
+                    <h3>20<span>2</span>0/20<span>2</span>1 - Reprise de Counter-Strike</h3>
+                    <p>- Vice champion de la division n°2 Française</p>
+                    <p>- 7<span><sup>ème</sup></span> de la première division</p>
+                    <p>- 2 fois dans l'équipe de la semaine (sur 7 semaines de compétition)</p>
+                    <p>- Vainqueur de l'Insalan 2022 <img src="img/gold-medal-svgrepo-com.svg" alt="" class="svg"> </p>
+                </div>
+            </div>
+
+            <div class="container left">
+                <div class="content">
+                    <h3><span>S</span>eptembre 20<span>2</span>1 - Début de collaboration assistant d'éducation au <a href="https://goo.gl/maps/3AzYzwJkDtqCtnTD8">Collège Charles Eisen</a></h3>
+                    <p>- Encadrement et surveillance des élèves</p>
+                    <p>- Aide a l'apprentissage et a la compréhensions des lessons</p>
+                    <p>- Aide à l'accueil et l'intégrations des élèves en situation de handicap</p>
+                    <p>- Aide à l'utilisation de nouvelles technologies</p>
+                    <p>- Aide à l'administration de l'établissement</p>
+                </div>
+            </div>
+
+            <div class="container right">
+                <div class="content">
+                    <h3><span>S</span>eptembre 20<span>2</span>2 - Fin de collaboration avec H&M Logistics</h3>
+                </div>
+            </div>
+
+            <div class="container left">
+                <div class="content">
+                    <h3><span>O</span>ctobre 20<span>2</span>2 - Fin de collaboration avec le Collège Charles Eisen</h3>
+                </div>
+            </div>
+
+            <div class="container right">
+                <div class="content">
+                    <h3><span>O</span>ctobre 20<span>2</span>2 - Quid de la suite?</h3>
+                </div>
+            </div>
+
         </div>
-    </div>
-    <div class="my_journey">
-        <div id="table_scolar"> 
-            <div class="card">
-                <div class="year">Juin 2015</div>
-                <div class="description">
-                    <h3>Baccalauréat général série scientifique (S-SVT) - <a href="https://goo.gl/maps/r3N6g2fwoByHPowz5">Lycée André Lurçat</a></h3>
-                    <span class="desc_journey">Spécialité Mathématique, option L.V. 3 Néerlandais</span>  <img class="flag" src="img/nl.svg" alt="nl" width="20px"> 
-                </div>
-            </div>
-
-            <div class="card">
-                <div class="year">Septembre 2015</div>
-                <div class="description">
-                    <h3>Entrée en licence informatique - <a href="https://goo.gl/maps/fztPaWijLn3FexAT6">Université polytechnique des hauts de France</a></h3>
-                </div>
-            </div>
-
-
-            <div class="card">
-                <div class="year">Septembre 2017</div>
-                <div class="description">
-                    <h3>Année sabbatique <img src="img/" alt=""></h3>
-                    <span class="desc_journey">Passage à temps plein tenter l'experience vers le professionnalisme de counter-strike</span>
-                </div>
-                <div class="year">Juillet 2018</div>
-            </div>
-
-            <div class="card">
-                <div class="year">Septembre 2018</div>
-                    <div class="description">
-                        <h3>Retour à la fac d'informatique</h3>
-                    </div>
-            </div>
-
-            <div class="card">
-                <div class="year">Juillet 2020</div>
-                    <div class="description">
-                        <h3>Obtention de ma licence en informatique <img src="img/student-svgrepo-com.svg" width="20px" alt=""></h3>
-                    </div>
-            </div>
-        </div>
-        <h1 id="table_pro"> TABLEAU PRO INSHALLAH</h1>
     </div>
     
     <script type="text/javascript" src="app.js"></script>
