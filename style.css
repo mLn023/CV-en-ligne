@@ -220,6 +220,19 @@ span,a{
   }
 }
 
-.fadeInLeft{
+.projects{
+  margin-bottom: 100px;
+  margin-left: 60px;
+  margin-right: 60px;
+  display: flex;
+  justify-content: space-around;
+  column-gap: 5%;
+  
+}
 
+.each_project{
+  background-color: #212121;
+  padding: 20px 30px;
+  border-radius: 6px;
+  flex: 1 1 0px;
 }
